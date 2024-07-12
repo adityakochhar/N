@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+
+      padding: 15px;
+      z-index: 100;
+      box-shadow: 0 0 10px 2px #b3b3b3;
+      background: linear-gradient(90deg, hsla(208, 7%, 55%, 1) 0%, hsla(191, 5%, 40%, 1) 100%);
+    }
+
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 10px;
+    }
+
+    header nav img {
+      width: 70px; 
+      margin-right: 20px; 
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 30px;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 26px;
+      font-weight: 700;
+    }
+
+
+    main {
+      margin-top: 80px;
+      padding: 20px;
+    }
+
+    .latest-news {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .news-item {
+      width: 30%;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+    }
+
+    .news-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .news-item h2 {
+      margin-top: 10px;
+    }
+
+
+    footer {
+
+      background: linear-gradient(90deg, hsla(208, 7%, 55%, 1) 0%, hsla(191, 5%, 40%, 1) 100%);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .image-container img:first-child {
+      width: 60%;
+      margin-right: 20px;
+    }
+
+    .image-container img:last-child {
+      width: 40%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="https://cdn-icons-png.flaticon.com/512/4627/4627609.png" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Welcome to My Website</h1>
+
+    <div>
+      Welcome to our newsletter website We are thrilled to have you here. Our mission is to keep you informed and inspired with the latest news, trends, and stories that matter to you. Whether you're looking for insightful articles, expert opinions, or just a dose of daily inspiration, you'll find it all here. We're committed to providing high-quality content that enriches your knowledge and keeps you engaged.
+       Thank you for joining our community, and we look forward to embarking on this exciting journey with you!
+    </div>
+
+    <div class="image-container">
+      <img class="image" src="https://www.shutterstock.com/image-photo/newspaper-on-wooden-desk-whats-260nw-435858979.jpg">
+      <img src="https://th.bing.com/th/id/OIP.GT3WH6uaujC9XNtDiM6_sgHaF6?w=214&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+    </div>
+    <br>
+
+    <section class="latest-news">
+      <div class="news-item">
+        <img src="https://www.livemint.com/lm-img/img/2024/07/12/600x338/NEPAL-POLITICS-GOVERNMENT-1_1720784484304_1720784500179.jpg">
+        <h2>Nepal Prime Minister Pushpa Kamal Dahal loses vote of confidence in Parliament — Who will be the new PM?</h2>
+        <p>Nepal’s prime minister lost a vote of confidence in parliament on Friday after the largest party in his coalition government withdrew its support, which would now force him to step down from office after 19 months in power.
+
+            Pushpa Kamal Dahal failed to get the support of more than half the members of the House of Representatives, the lower house of parliament, on Friday which was required to win the vote.
+            
+            He had to move a confidence motion in parliament after his main ally in government, the Communist Party of Nepal (Unified Marxist Leninist) decided to pull out their support last week and join hands with the Nepali Congress — the largest party in the country — to form a new alliance.</p>
+      </div>
+      <div class="news-item">
+        <img src="https://www.livemint.com/lm-img/img/2024/07/12/600x338/Delhi-chief-minister-Arvind-Kejriwal---PTI-_1720761448042_1720761454669.jpg">
+        <h2>Delhi excise policy case: Supreme Court grants interim bail to Arvind Kejriwal</h2>
+        <p>Supreme Court grants interim bail to Delhi Chief Minister and AAP National Convener Arvind Kejriwal in the Delhi excise policy case on Friday.
+
+            The Apex Court refers his petition challenging his arrest by the Enforcement Directorate (ED) to a larger bench.
+            
+            The Supreme Court, while granting interim bail to Kejriwal in the ED case, observed that Arvind Kejriwal has been incarcerated for 90 days, and it is conscious that he is an elected leader.
+            
+            Also Read: Why Delhi CM Arvind Kejriwal stays in jail despite interim bail by Supreme Court in excise policy case
+            
+            CM Kejriwal's lawyer Rishikesh Kumar said, “The Supreme Court has granted him interim bail and the issue of section 19 and necessity of arrest has been referred to a larger bench. CM Kejriwal will remain in custody as his bail in the CBI case is still pending. This is a big victory.”</p>
+      </div>
+      <div class="news-item">
+        <img src="https://images.hindustantimes.com/img/2024/07/12/550x309/nepal_floods_landslide_bus_1720749131873_1720749132237.jpg">
+        <h2>63 missing after landslide sweeps two buses into Trishuli River in Nepal</h2>
+        <p>A landslide on the Madan-Ashrit Highway in Nepal early this morning swept two buses carrying 63 people into the Trishu "We are not sure of the total number because the buses could have picked up others on the road," he said. "The river has swollen and no one else has been found yet."
+
+          Bhusal said that the survivors were out of danger and one had been discharged from the hospital. 
+          
+          One told AFP from his hospital bed that his two children and two grandchildren had been aboard one of the buses when it hit the water. 
+          
+          "My son, my daughter, my grandchildren, all four are gone... only I am here," Jugeshwor Ray Yadav, 45, told AFP.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contact">
+      <a>Contact Us</a>
+      <br>
+      <br>
+
+      <a>aditya1511.be23@chitkara.edu.in</a>
+      <br>
+      <a>+91 701*******</a>
+    </div>
+    
+    <p>&copy; 2024 Newsletter Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

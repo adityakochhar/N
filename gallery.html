@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+
+      padding: 10px;
+      z-index: 100;
+      box-shadow: 0 0 10px 2px #b3b3b3;
+      background: linear-gradient(90deg, hsla(208, 7%, 55%, 1) 0%, hsla(191, 5%, 40%, 1) 100%);
+    }
+
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 10px;
+    }
+
+    header nav img {
+      width: 70px; 
+      margin-right: 20px; 
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 30px;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 26px;
+      font-weight:700;
+    }
+
+
+    main {
+      margin-top: 80px;
+      padding: 20px;
+    }
+
+    .latest-news {
+margin-top:20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .news-item {
+  width: 30%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.news-item h2 {
+  margin-top: 10px;
+}
+
+
+    footer {
+
+     background: linear-gradient(90deg, hsla(208, 7%, 55%, 1) 0%, hsla(191, 5%, 40%, 1) 100%);
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="https://cdn-icons-png.flaticon.com/512/4627/4627609.png" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Welcome to images Gallery</h1>
+
+
+
+    <section class="latest-news">
+      <div class="news-item">
+        <img src="https://www.livemint.com/lm-img/img/2024/07/12/600x338/NEPAL-POLITICS-GOVERNMENT-1_1720784484304_1720784500179.jpg">
+        <h2>Nepal Prime Minister Pushpa Kamal Dahal loses vote of confidence in Parliament — Who will be the new PM?</h2>
+        <p>Nepal’s prime minister lost a vote of confidence in parliament on Friday after the largest party in his coalition government withdrew its support, which would now force him to step down from office after 19 months in power.
+
+            Pushpa Kamal Dahal failed to get the support of more than half the members of the House of Representatives, the lower house of parliament, on Friday which was required to win the vote.
+            
+            He had to move a confidence motion in parliament after his main ally in government, the Communist Party of Nepal (Unified Marxist Leninist) decided to pull out their support last week and join hands with the Nepali Congress — the largest party in the country — to form a new alliance.</p>
+      </div>
+      <div class="news-item">
+        <img src="https://www.livemint.com/lm-img/img/2024/07/12/600x338/Delhi-chief-minister-Arvind-Kejriwal---PTI-_1720761448042_1720761454669.jpg">
+        <h2>Delhi excise policy case: Supreme Court grants interim bail to Arvind Kejriwal</h2>
+        <p>Supreme Court grants interim bail to Delhi Chief Minister and AAP National Convener Arvind Kejriwal in the Delhi excise policy case on Friday.
+
+            The Apex Court refers his petition challenging his arrest by the Enforcement Directorate (ED) to a larger bench.
+            
+            The Supreme Court, while granting interim bail to Kejriwal in the ED case, observed that Arvind Kejriwal has been incarcerated for 90 days, and it is conscious that he is an elected leader.
+            
+            Also Read: Why Delhi CM Arvind Kejriwal stays in jail despite interim bail by Supreme Court in excise policy case
+            
+            CM Kejriwal's lawyer Rishikesh Kumar said, “The Supreme Court has granted him interim bail and the issue of section 19 and necessity of arrest has been referred to a larger bench. CM Kejriwal will remain in custody as his bail in the CBI case is still pending. This is a big victory.”</p>
+      </div>
+
+      <div class="news-item">
+        <img src="https://images.hindustantimes.com/img/2024/07/12/550x309/nepal_floods_landslide_bus_1720749131873_1720749132237.jpg">
+        <h2>63 missing after landslide sweeps two buses into Trishuli River in Nepal</h2>
+        <p>A landslide on the Madan-Ashrit Highway in Nepal early this morning swept two buses carrying 63 people into the Trishu "We are not sure of the total number because the buses could have picked up others on the road," he said. "The river has swollen and no one else has been found yet."
+
+          Bhusal said that the survivors were out of danger and one had been discharged from the hospital. 
+          
+          One told AFP from his hospital bed that his two children and two grandchildren had been aboard one of the buses when it hit the water. 
+          
+          "My son, my daughter, my grandchildren, all four are gone... only I am here," Jugeshwor Ray Yadav, 45, told AFP.</p>
+      </div>
+
+      <div class="news-item">
+        <img src="https://images.hindustantimes.com/img/2024/07/06/550x309/captain_army_1720260349857_1720260368564.jpg">
+        <h2>Captain Anshuman Singh's widow Smriti Singh recalls their last conversation: 'On July 18… Next day, he died'</h2>
+        <p>"It was love at first sight," recalled Smriti Singh - the wife of late Captain Anshuman Singh who was awarded Kirti Chakra posthumously for the ultimate sacrifice in saving the life of his fellow army men from a fire at Siachen.</p>
+      </div>
+
+      <div class="news-item">
+        <img src="https://c.ndtvimg.com/2022-12/0htt5beg_india-police-generic_625x300_23_December_22.jpg?im=FaceCrop,algorithm=dnn,width=650,height=400">
+        <h2>House Help Stuck In Lift Dies After Falling From 3rd Floor During Rescue Operation In Kota: Cops</h2>
+        <p>Kota: A 43-year-old house help, who was stuck in a lift for around 45 minutes in a multi-storey apartment here, died after falling on the basement from the third floor of the building during rescue operation, police said.
+          The police lodged a case of culpable homicide and handed over the body to her family members after postmortem on Friday morning, a day after the incident.
+          
+          The woman was identified as Rukmanibai (43), a resident of Shyam Nagar under the RK Puram police station limits of the city.</p>
+      </div>
+
+      <div class="news-item">
+        <img src="https://c.ndtvimg.com/2024-07/9ko7rkcg_devendra-fadnavis-eknath-shinde-ajit-pawar-fadanvis-shinde-ajit_625x300_11_July_24.jpeg?im=FaceCrop,algorithm=dnn,width=650,height=400">
+        <h2>BJP, Allies Sweep Maharashtra Legislative Council Poll, Win 9 Of 11 Seats</h2>
+        <p>Mumbai: The BJP-led Mahayuti alliance in Maharashtra - consisting of Chief Minister Eknath Shinde's Shiv Sena and the NCP of Deputy Chief Minister Ajit Pawar, in addition to the saffron party - bounced back from a disappointing result in the general election by registering a big win in MLC polls.
+          The BJP fielded five candidates, including Pankaja Munde, the daughter of late senior leader Gopinath Munde. All five won. The Shinde Sena and Ajit Pawar's NCP named two each. All four won.
+          
+          The opposition Maha Vikas Aghadi - the Congress, and Sena and NCP factions (broken after rebellions by Mr Shinde and Mr Pawar) led Uddhav Thackeray and Sharad Pawar - fielded three.</p>
+      </div>
+
+      <div class="news-item">
+        <img src="https://c.ndtvimg.com/2024-07/rjdfgtig_pm-modi_625x300_11_July_24.jpeg?im=FaceCrop,algorithm=dnn,width=650,height=400">
+        <h2>Reminder Of When Constitution Was Trampled: PM Modi on 'Samvidhaan Hatya Diwas'</h2>
+        <p>New Delhi: Prime Minister Narendra Modi said on Friday that observing June 25 as 'Samvidhaan Hatya Diwas' will serve as a reminder of what happened when the Constitution was trampled over.
+          He said on 'X', "It is also a day to pay homage to each and every person who suffered due to the excesses of the Emergency, a Congress unleashed dark phase of Indian history."
+          
+          Listen to the latest songs, only on JioSaavn.com
+          PM Modi's post came soon after Home Minister Amit Shah announced that June 25, the day the Emergency was declared in 1975, would be observed as 'Samvidhaan Hatya Diwas' to remember the "massive contributions" of those who endured inhuman pains during the period. </p>
+      </div>
+
+      <div class="news-item">
+        <img src="https://c.ndtvimg.com/2024-07/gvk5q2tg_glacier-national-park_625x300_12_July_24.jpg?im=FitAndFill,algorithm=dnn,width=650,height=400">
+        <h2>26-Year-Old Indian Working In US Drowns In Glacier National Park</h2>
+        <p>Washington: A 26-year-old Indian national working in California drowned in the famous Glacier National Park in the US state of Montana while on vacation with friends, according to park authorities.
+          The Indian has been identified as Siddhant Vitthal Patil, the National Park Service said in a statement.
+          
+          Patil was hiking above the gorge on June 6 on Avalanche Lake Trail where he fell off a large rock into Avalanche Creek.
+          
+          PlayUnmute
+          Fullscreen
+          It is unclear if he slipped on a wet portion of the rock or lost his balance.
+          
+          Friends who were with him saw Patil go underwater and resurface before being swept up by the current into the gorge.
+          
+          </p>
+      </div>
+
+      <div class="news-item">
+        <img src="https://c.ndtvimg.com/2024-07/ca9jdv5_eric-garcetti_625x300_12_July_24.jpeg">
+        <h2>America Sees Its Future With India, Says US Envoy</h2>
+        <p>New Delhi: In an interconnected world, "no war is distant anymore", US envoy Eric Garcetti said on Thursday and asserted that one must not just stand for peace, but also take concrete actions to make sure those who don't play by peaceful rules, their war machines "cannot continue unabated".
+          "And that is something the US needs to know and that India needs to know together," the ambassador said during a keynote address at an event here as he also pitched for forging a stronger partnership between New Delhi and Washington envisioning them together as an "unstoppable force for good in the world".
+          
+          His comments come in the backdrop of multiple ongoing conflicts in the world, including in Ukraine and Israel-Gaza.</p>
+      </div>
+
+      <div class="news-item">
+        <img src="https://c.ndtvimg.com/2021-11/bevackr_digital-payments_625x300_11_November_21.jpg">
+        <h2>Indians Travelling To Qatar Will Soon Be Able To Make UPI Payments</h2>
+        <p>New Delhi: NPCI International Payments Ltd (NIPL), the international arm of the National Payments Corporation of India (NPCI), on Thursday signed an agreement with QNB, the largest financial institution in the Middle East and Africa, headquartered in Qatar, to launch QR code-based Unified Payments Interface (UPI) payments across the Gulf nation.
+          This will enable UPI payment acceptance in Qatar through the QNB merchant network, benefiting Indian travellers visiting and transiting through the country.
+          
+          "We believe that enabling UPI acceptance in Qatar will offer substantial benefits to the large number of Indians visiting the country, simplifying their transactions, and ensuring a hassle-free travel experience abroad," Anubhav Sharma, Deputy Chief - Partnerships and Business Development, NPCI International, said in a statement.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contact">
+      <a>Contact Us</a>
+      <br>
+      <br>
+
+      <a>aditya1511.be23@chitkara.edu.in</a>
+      <br>
+      <a>+91 701*******</a>
+    </div>
+    
+    <p>&copy; 2024 Newsletter Website. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
